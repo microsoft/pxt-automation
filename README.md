@@ -23,7 +23,16 @@ for (let i = 0; i < 10; ++i) {
 
 ## Behaviors
 
+An example of Behavior-based robotics control system. 
+
 ## Moving Average Filter
+
+```blocks
+let r = 0;
+for (let i = 0; i < 10; ++i) {
+    r = automation.movingAverageFilter1.filter(Math.random());
+}
+```
 
 ## Supported targets
 
