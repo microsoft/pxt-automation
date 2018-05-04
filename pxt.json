@@ -1,5 +1,6 @@
 {
     "name": "automation",
+    "version": "0.0.0",
     "description": "Automation, Process Control, Systems and Controls",
     "files": [
         "README.md",
