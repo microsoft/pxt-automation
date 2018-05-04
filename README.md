@@ -1,11 +1,18 @@
-# Automation
+# Automation [![Build Status](https://travis-ci.org/Microsoft/pxt-automation.svg?branch=master)](https://travis-ci.org/Microsoft/pxt-automation)
 
-Various algorithm for Systems & Control operations.
+Various algorithm for Systems & Control operations for Microsoft MakeCode editors.
+
+## How to use this library?
+
+In your MakeCode editor, click on the gearhweel menu and click "Extensions", search for "automation"
+and select this project.
 
 ## PID controller
 
 A Proportional-Integral-Derivative control is a classic control structure in automation.
-The user needs to define 3 gains (``Kp``, ``Ki``, ``Kd``) to tune the controll.er
+The user needs to define 3 gains (``Kp``, ``Ki``, ``Kd``) to tune the controll.er.
+
+See Reference: [Feedback System, Karl Johan Astrom & Rickard M. Murry](https://press.princeton.edu/titles/8701.html)
 
 ```blocks
 automation.pid1.setGains(1, 0.01, 0.001);
