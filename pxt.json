@@ -1,0 +1,15 @@
+{
+    "name": "automation",
+    "description": "Automation, Process Control, Systems and Controls",
+    "files": [
+        "README.md",
+        "ns.ts",
+        "behaviors.ts",
+        "pid.ts"
+    ],
+    "testFiles": [],
+    "public": true,
+    "dependencies": {
+        "core": "*"
+    }
+}

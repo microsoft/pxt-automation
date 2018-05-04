@@ -1,14 +1,28 @@
+# Automation
 
-# Contributing
+Various algorithm for Systems & Control operations.
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
+## PID controller
 
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+A Proportional-Integral-Derivative control is a classic control structure in automation.
+The user needs to define 3 gains (``Kp``, ``Ki``, ``Kd``) to tune the controll.er
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+```blocks
+automation.pid1.setGains(1, 0.01, 0.001);
+for (let i = 0; i < 10; ++i) {
+    const x = automation.pid1.compute(0.1, 5);
+}
+```
+
+## Supported targets
+
+* for PXT/maker
+* for PXT/adafruit
+
+## License
+
+MIT
+
+## Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
