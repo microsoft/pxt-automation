@@ -15,9 +15,10 @@ The user needs to define 3 gains (``Kp``, ``Ki``, ``Kd``) to tune the controll.e
 See Reference: [Feedback System, Karl Johan Astrom & Rickard M. Murry](https://press.princeton.edu/titles/8701.html)
 
 ```blocks
+let v = 0;
 automation.pid1.setGains(1, 0.01, 0.001);
 for (let i = 0; i < 10; ++i) {
-    const x = automation.pid1.compute(0.1, 5);
+    v = automation.pid1.compute(0.1, 5);
 }
 ```
 
