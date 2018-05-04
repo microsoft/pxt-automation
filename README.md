@@ -39,6 +39,7 @@ for (let i = 0; i < 10; ++i) {
 
 * for PXT/maker
 * for PXT/adafruit
+* for PXT/codal
 
 ## License
 
