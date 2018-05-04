@@ -6,7 +6,8 @@
         "README.md",
         "ns.ts",
         "behaviors.ts",
-        "pid.ts"
+        "pid.ts",
+        "movingaveragefilter.ts"
     ],
     "testFiles": [],
     "public": true,

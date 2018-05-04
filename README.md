@@ -21,6 +21,10 @@ for (let i = 0; i < 10; ++i) {
 }
 ```
 
+## Behaviors
+
+## Moving Average Filter
+
 ## Supported targets
 
 * for PXT/maker
