@@ -1,13 +1,12 @@
 {
     "name": "automation",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Automation, Process Control, Systems and Controls",
     "files": [
         "README.md",
         "ns.ts",
         "behaviors.ts",
-        "pid.ts",
-        "movingaveragefilter.ts"
+        "pid.ts"
     ],
     "testFiles": [],
     "public": true,
