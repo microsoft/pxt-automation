@@ -4,7 +4,7 @@ Various algorithm for Systems & Control operations for Microsoft MakeCode editor
 
 ## How to use this library?
 
-In your MakeCode editor, click on the gearhweel menu and click "Extensions", search for "automation"
+In your MakeCode editor, click on the gearwheel menu and click "Extensions", search for "automation"
 and select this project.
 
 ## PID controller
