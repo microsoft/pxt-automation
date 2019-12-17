@@ -214,4 +214,19 @@ namespace automation {
 
     //% fixedInstance
     export const pid4 = new PIDController();
+
+    //% fixedInstance
+    export const pid5 = new PIDController();
+
+    //% fixedInstance
+    export const pid6 = new PIDController();
+
+    //% fixedInstance
+    export const pid7 = new PIDController();
+
+    //% fixedInstance
+    export const pid8 = new PIDController();
+
+    //% fixedInstance
+    export const pid9 = new PIDController();
 }
