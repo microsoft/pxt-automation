@@ -84,13 +84,19 @@ namespace automation {
             this.reset();
         }
 
+        /**
+         * Reset pid instance.
+         * @param pid necessary pid for reset
+         */
+        //% blockId=pidReset block="reset %pid"
+        //% group=PID
         reset() {
             this.I = 0;
             this.D = 0;
         }
 
         /**
-         * Sets the PID gains
+         * Sets the PID gains.
          * @param kp proportional gain
          * @param ki integral gain
          * @param kd derivative gain
@@ -117,7 +123,7 @@ namespace automation {
         }
 
         /**
-         * Sets the control saturation values
+         * Sets the control saturation values.
          * @param low lowest control value, eg: -100
          * @param high highest control value, eg: 100
          */
@@ -128,7 +134,7 @@ namespace automation {
         }
 
         /**
-         * Sets the derivative filter gain
+         * Sets the derivative filter gain.
          * @param N the filter gain, eg:10
          */
         //% blockId=pidSetDerivativeFilter block="set %pid|derivative filter %N"
@@ -139,7 +145,7 @@ namespace automation {
         }
 
         /**
-         * Updates the desired setpoint
+         * Updates the desired setpoint.
          * @param ysp 
          */
         //% blockId=pidSetPoint block="set %pid|point to %ysp"
@@ -148,7 +154,7 @@ namespace automation {
         }
 
         /**
-         * Computes the output based on the system state
+         * Computes the output based on the system state.
          */
         //% blockId=pidCompute block="%pid|compute for timestep %timestep|(ms) at state %y"
         //% group=PID
