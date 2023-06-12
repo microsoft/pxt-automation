@@ -10,7 +10,7 @@ and select this project.
 ## PID controller
 
 A Proportional-Integral-Derivative control is a classic control structure in automation.
-The user needs to define 3 gains (``Kp``, ``Ki``, ``Kd``) to tune the controll.er.
+The user needs to define 3 gains (``Kp``, ``Ki``, ``Kd``) to tune the controller.
 
 See Reference: [Feedback System, Karl Johan Astrom & Rickard M. Murry](https://press.princeton.edu/titles/8701.html)
 
