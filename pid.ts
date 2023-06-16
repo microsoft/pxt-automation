@@ -85,7 +85,7 @@ namespace automation {
         }
 
         /**
-         * Reset pid instance.
+         * Reset pid instance. Do a reset after setting the coefficients and limit range.
          * @param pid necessary pid for reset
          */
         //% blockId=pidReset block="reset %pid"
